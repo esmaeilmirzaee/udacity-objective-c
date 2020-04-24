@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DA9D713A2453197700B0A905 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D71392453197700B0A905 /* main.m */; };
+		DA9D714324531AE600B0A905 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D714224531AE600B0A905 /* House.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DA9D71362453197700B0A905 /* Udacity-Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Udacity-Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9D71392453197700B0A905 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA9D714124531AE600B0A905 /* House.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		DA9D714224531AE600B0A905 /* House.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		DA9D71382453197700B0A905 /* Udacity-Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				DA9D714024531AA400B0A905 /* House */,
 				DA9D71392453197700B0A905 /* main.m */,
 			);
 			path = "Udacity-Objective-C";
+			sourceTree = "<group>";
+		};
+		DA9D714024531AA400B0A905 /* House */ = {
+			isa = PBXGroup;
+			children = (
+				DA9D714124531AE600B0A905 /* House.h */,
+				DA9D714224531AE600B0A905 /* House.m */,
+			);
+			path = House;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA9D714324531AE600B0A905 /* House.m in Sources */,
 				DA9D713A2453197700B0A905 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
