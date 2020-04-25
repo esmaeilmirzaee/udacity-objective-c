@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DA9D713A2453197700B0A905 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D71392453197700B0A905 /* main.m */; };
 		DA9D714324531AE600B0A905 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D714224531AE600B0A905 /* House.m */; };
+		DAD0EE4824542358008FB247 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD0EE4724542358008FB247 /* Book.m */; };
+		DAD0EE4C2454292D008FB247 /* Bedroom.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD0EE4B2454292D008FB247 /* Bedroom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		DA9D71392453197700B0A905 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA9D714124531AE600B0A905 /* House.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
 		DA9D714224531AE600B0A905 /* House.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
+		DAD0EE4624542358008FB247 /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		DAD0EE4724542358008FB247 /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		DAD0EE4A2454292D008FB247 /* Bedroom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bedroom.h; sourceTree = "<group>"; };
+		DAD0EE4B2454292D008FB247 /* Bedroom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bedroom.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,8 @@
 			children = (
 				DA9D714024531AA400B0A905 /* House */,
 				DA9D71392453197700B0A905 /* main.m */,
+				DAD0EE492454235E008FB247 /* Book */,
+				DAD0EE4D24542936008FB247 /* Bedroom */,
 			);
 			path = "Udacity-Objective-C";
 			sourceTree = "<group>";
@@ -73,6 +81,24 @@
 				DA9D714224531AE600B0A905 /* House.m */,
 			);
 			path = House;
+			sourceTree = "<group>";
+		};
+		DAD0EE492454235E008FB247 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				DAD0EE4624542358008FB247 /* Book.h */,
+				DAD0EE4724542358008FB247 /* Book.m */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		DAD0EE4D24542936008FB247 /* Bedroom */ = {
+			isa = PBXGroup;
+			children = (
+				DAD0EE4A2454292D008FB247 /* Bedroom.h */,
+				DAD0EE4B2454292D008FB247 /* Bedroom.m */,
+			);
+			path = Bedroom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD0EE4C2454292D008FB247 /* Bedroom.m in Sources */,
 				DA9D714324531AE600B0A905 /* House.m in Sources */,
+				DAD0EE4824542358008FB247 /* Book.m in Sources */,
 				DA9D713A2453197700B0A905 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
