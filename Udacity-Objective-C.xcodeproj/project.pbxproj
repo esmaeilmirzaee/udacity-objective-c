@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DA9A16182454561A006F0845 /* RPSTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9A16172454561A006F0845 /* RPSTurn.m */; };
 		DA9A161B24545629006F0845 /* RPSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9A161A24545629006F0845 /* RPSGame.m */; };
+		DA9A162124546B51006F0845 /* RPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9A162024546B51006F0845 /* RPSController.m */; };
 		DA9D713A2453197700B0A905 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D71392453197700B0A905 /* main.m */; };
 		DA9D714324531AE600B0A905 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D714224531AE600B0A905 /* House.m */; };
 		DAD0EE4824542358008FB247 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD0EE4724542358008FB247 /* Book.m */; };
@@ -33,6 +34,8 @@
 		DA9A16172454561A006F0845 /* RPSTurn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSTurn.m; sourceTree = "<group>"; };
 		DA9A161924545629006F0845 /* RPSGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPSGame.h; sourceTree = "<group>"; };
 		DA9A161A24545629006F0845 /* RPSGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSGame.m; sourceTree = "<group>"; };
+		DA9A161F24546B51006F0845 /* RPSController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPSController.h; sourceTree = "<group>"; };
+		DA9A162024546B51006F0845 /* RPSController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSController.m; sourceTree = "<group>"; };
 		DA9D71362453197700B0A905 /* Udacity-Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Udacity-Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9D71392453197700B0A905 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA9D714124531AE600B0A905 /* House.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				DA9A16172454561A006F0845 /* RPSTurn.m */,
 				DA9A161924545629006F0845 /* RPSGame.h */,
 				DA9A161A24545629006F0845 /* RPSGame.m */,
+				DA9A161F24546B51006F0845 /* RPSController.h */,
+				DA9A162024546B51006F0845 /* RPSController.m */,
 			);
 			path = RPS;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 				DAD0EE4C2454292D008FB247 /* Bedroom.m in Sources */,
 				DA9A161B24545629006F0845 /* RPSGame.m in Sources */,
 				DA9D714324531AE600B0A905 /* House.m in Sources */,
+				DA9A162124546B51006F0845 /* RPSController.m in Sources */,
 				DA9A16182454561A006F0845 /* RPSTurn.m in Sources */,
 				DAD0EE5024543974008FB247 /* Person.m in Sources */,
 				DAD0EE4824542358008FB247 /* Book.m in Sources */,
