@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface House : NSObject
 
+@property (nonatomic, copy) NSString *address;
+@property (nonatomic, readonly) int numberOfBedrooms;
+@property (nonatomic) BOOL hasHotTub;
+
+-(instancetype)initWithAddress:(NSString*)address;
+
 @end
 
 NS_ASSUME_NONNULL_END
