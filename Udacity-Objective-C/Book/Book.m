@@ -7,11 +7,12 @@
 //
 
 #import "Book.h"
+#import "Person.h"
 
 @implementation Book
 
 -(instancetype)initWithTitle:(NSString*)title
-                     authour:(NSString*)authour
+                     authour:(Person*)authour
                         year:(int)year {
     self = [super init];
     

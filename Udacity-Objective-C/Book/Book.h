@@ -7,17 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Book : NSObject
 
 @property (nonatomic, copy) NSString *title;
-@property (nonatomic, readonly) NSString *authour;
+@property (nonatomic, readonly) Person *authour;
 @property (nonatomic, readonly) int publicationYear;
 
 -(instancetype)initWithTitle:(NSString*)title
-                        authour:(NSString*)authour
+                        authour:(Person*)authour
                         year:(int)year;
 
 @end
